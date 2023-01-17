@@ -1,7 +1,10 @@
 asgiref==3.6.0
 backports.zoneinfo==0.2.1
 coverage==7.0.5
+dj-database-url==0.5.0
+dj_database_url==0.5.0
 Django==3.2.16
+greenlet==2.0.1
 gunicorn==20.1.0
 psycopg2-binary==2.9.5
 pytz==2022.7
