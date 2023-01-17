@@ -1,3 +1,8 @@
+import os
+
+if os.path.isfile("env.py"):
+    import env
+
 """
 Django settings for django_todo project.
 
@@ -76,6 +81,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 
 DATABASES = {
     'default': {
+        # 'ENGINE': 'os.environ.get("DATABASE_URL"),
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
