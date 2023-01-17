@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-yi*n!et1ie+*ti$!41kea*+a2#5l-5a(8nly5@7_+6_!l_prp!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['git.heroku.com/djangopowell.git']
 
 
 # Application definition
